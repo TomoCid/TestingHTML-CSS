@@ -1,0 +1,76 @@
+/* Probando css */
+
+/* 
+    body hace modificaciones a toda la estructura visible, ya sea el fondo, color de la letra, fuente, tamaño, etc.
+    body{
+    }
+------------------------------------------------------------------------------------------------------------------
+    "*" selecciona a todos los elementos, puede usarse con selectores simples.
+    Ej: *.tema {
+        color:black;
+            }
+        Todos los elementos 
+ */
+
+/* Todo el texto en pantalla */
+body {
+    background:url(../archivos/fondo.jpg);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+*{
+    color:#FFFFFF;
+}
+/* Etiquetas del tipo h (1,2,3,4,5,6) */
+h1,h2,h3 {
+    color:#FFFFFF;
+}
+
+/* Links */
+a {
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+a:hover{
+    color:#CC66CC;
+    text-decoration: underline;
+}
+a:visited{
+    color:#CC66CC; 
+}
+/*---------------------------*/
+/*ID personalizadas*/
+*#opt,*#usuario,*#mail,*#key,*#button{
+    color:black;
+}
+/*----------------*/
+div.texto{
+    width: 50%;
+    padding-left:10px;
+    padding-right: 10px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    background-color: rgb(30, 30, 30);
+    border:5px solid rgba(255, 0, 0, 0.55);
+    border-radius: 5px;   
+}
+
+div.links_a{
+    width: 265px;
+    height: 100px;
+    position:relative;
+    background: rgb(30, 30, 30);
+    border:5px solid rgba(255, 0, 0, 0.55);
+    border-radius: 5px;
+}
+
+.menu{
+    width: 150px;
+    height: 60px;
+    float:right;
+}
+/* Probando comentarios */
