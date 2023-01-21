@@ -73,4 +73,25 @@ div.links_a{
     height: 60px;
     float:right;
 }
+
+div.img{
+    width: 100%;
+}
+img.mod{
+    width:280px;
+    height: auto;
+    margin:auto;
+    display:block;
+    border-radius: 15px;
+    padding: 10px;
+    border: 5px solid rgb(30, 30, 30);
+}
+img.mod2{
+    width:280px;
+    height: auto;
+    margin:0px;
+    display:block;
+    border-radius: 15px;
+    box-shadow:15px 15px 0px rgb(31, 31, 31);
+}
 /* Probando comentarios */
