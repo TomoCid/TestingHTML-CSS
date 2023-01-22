@@ -67,11 +67,28 @@ div.links_a{
     border:5px solid rgba(255, 0, 0, 0.55);
     border-radius: 5px;
 }
-
 .menu{
+    background: url(../archivos/fondo-menu.jpg);
+    width: 100%;
+    list-style: none;
+    margin-left: 0px;
+    padding: 0;
+    border:5px solid rgb(255, 255, 255);
+    border-radius: 15px;
+}
+.menu li{
+    display: inline-block;
     width: 150px;
     height: 60px;
-    float:right;
+    margin: 10px;
+}
+.menu li a.menu-nav{
+    color:#FFFFFF;
+    padding: 10px 20px;
+    display:inline-block;
+}
+.menu li a.menu-nav:hover{
+    color:#CC66CC;
 }
 
 div.img{
