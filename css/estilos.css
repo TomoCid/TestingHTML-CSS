@@ -111,4 +111,22 @@ img.mod2{
     border-radius: 15px;
     box-shadow:15px 15px 0px rgb(31, 31, 31);
 }
+
+table{
+    border: 1px solid rgb(255, 255, 255);
+    border-collapse: collapse;
+}
+table td{
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+}
+table td:hover{
+    background:rgb(30, 30, 30);
+}
+
+/* Diseño de tabla más personalizado 
+    table tr:hover{
+        background:#ccc;
+    }
+*/
 /* Probando comentarios */
